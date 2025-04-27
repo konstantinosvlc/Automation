@@ -27,7 +27,7 @@ public class InvalidPassword {
         Thread.sleep(1000);
         WebElement passwordInput = driver.findElement(By.id("password"));
         passwordInput.sendKeys("Wrong123!");
-//Click Log in
+//Submit Log in Button
         Thread.sleep(1000);
         WebElement loginButton = driver.findElement(By.cssSelector("button[type='submit']"));
         loginButton.click();
